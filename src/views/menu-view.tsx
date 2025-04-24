@@ -13,14 +13,14 @@ interface MenuViewProps {
 const MenuView: FC<MenuViewProps> = ({ onStartSetup }) => {
     return (
         <div className="flex flex-col">
-            {/* Заголовок гри */}
+
             <h1 className="text-4xl text-center font-bold text-black-900">
-                Лютий бій
+                BAD_Ship
             </h1>
 
-            {/* Опис або привітання */}
+
             <span className="text-xs max-w-md mt-1 mb-4 text-black-500">
-        Вітаю у грі Лютий бій! Гра розроблена як технічне завдання Заставного Михайла. Для початку гри натисніть "Почати гру" та
+        Вітаю у грі BAD_Ship! Для початку гри натисніть "Почати гру" та
         отримуйте задоволення!
       </span>
 
